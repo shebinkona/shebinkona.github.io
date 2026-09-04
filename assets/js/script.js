@@ -14,12 +14,6 @@
     return window.location.href.split("#")[0];
   }
 
-  function initSeoUrl() {
-    const url = portfolioUrl();
-    $("#canonicalUrl").attr("href", url);
-    $("meta[property='og:url']").attr("content", url);
-  }
-
   function initTheme() {
     const savedTheme = localStorage.getItem("shebin-theme");
     setTheme(savedTheme === "dark" ? "dark" : "light");
@@ -127,9 +121,9 @@
     let phraseIndex = 0;
     window.setInterval(() => {
       phraseIndex = (phraseIndex + 1) % phrases.length;
-      text.animate([{ opacity: 1 }, { opacity: 0 }, { opacity: 1 }], { duration: 650, easing: "ease" });
-      window.setTimeout(() => { text.textContent = phrases[phraseIndex]; }, 320);
-    }, 4200);
+      text.animate([{ opacity: 1 }, { opacity: 0 }, { opacity: 1 }], { duration: 520, easing: "ease" });
+      window.setTimeout(() => { text.textContent = phrases[phraseIndex]; }, 250);
+    }, 3400);
   }
 
   function initWorkControls() {
@@ -290,7 +284,6 @@
   }
 
   $(function () {
-    initSeoUrl();
     initTheme();
     initProfileImage();
     initNavigation();
