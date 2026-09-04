@@ -242,8 +242,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .work-content p { max-width: 760px; }
 .work-content .tag-list { margin: 1rem 0; }
 .stakeholders strong { color: var(--text); }
-.work-card-featured { border-color: color-mix(in srgb, var(--secondary) 55%, var(--border)); background: linear-gradient(115deg, var(--surface), color-mix(in srgb, var(--surface-soft) 72%, var(--surface))); }
-.work-card-featured .work-number { display: grid; place-items: center; width: 3rem; aspect-ratio: 1; border-radius: 50%; background: var(--primary); color: white; }
 .impact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .55rem; margin: 1.1rem 0; }
 .impact-grid span { display: flex; align-items: center; gap: .55rem; padding: .65rem .75rem; border: 1px solid var(--border); border-radius: 11px; background: var(--background); color: var(--text); font-size: .78rem; font-weight: 600; }
 .impact-grid i { color: var(--primary); }
@@ -411,7 +409,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .search-field { flex-basis: auto; }
   .toolbar-actions .btn { flex: 1; }
   .work-card summary { grid-template-columns: 2.35rem minmax(0, 1fr) 2.3rem; gap: .6rem; min-height: 5.5rem; padding: .85rem; }
-  .work-card-featured .work-number { width: 2.3rem; }
   .work-content { margin: 0 .85rem .85rem; }
   .impact-grid { grid-template-columns: 1fr; }
   .check-list { columns: 1; }
