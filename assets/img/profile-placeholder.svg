@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Shebin Koonathethil portfolio</title>
+  <desc id="desc">A plum monogram card with the initials SK.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3f2a43"/>
+      <stop offset=".58" stop-color="#6f4f69"/>
+      <stop offset="1" stop-color="#d7a9b9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1020" cy="80" r="240" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="2"/>
+  <circle cx="120" cy="610" r="280" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+  <text x="600" y="365" fill="#fff" font-family="Georgia, serif" font-size="210" font-weight="700" text-anchor="middle">SK</text>
+  <text x="600" y="452" fill="#fff" fill-opacity=".86" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8" text-anchor="middle">BUSINESS • DATA • TECHNOLOGY</text>
+</svg>
